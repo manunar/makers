@@ -1,5 +1,6 @@
 import React from 'react';
 import { ShoppingCart, Lock, Zap, Sparkles, ChevronDown } from 'lucide-react';
+import logo from './images/logomakers-removebg-preview.png';
 
 function App() {
   const scrollToFeatures = () => {
@@ -12,7 +13,7 @@ function App() {
       <section className="h-screen relative flex items-center justify-center">
         {/* Logo */}
         <img 
-          src="/src/images/logomakers-removebg-preview.png" 
+          src={logo}
           alt="Logo Makers" 
           className="absolute top-4 left-4 w-24 h-auto z-20"
         />
